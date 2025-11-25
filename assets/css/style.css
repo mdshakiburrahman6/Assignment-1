@@ -109,3 +109,36 @@
 .action img{
     border-radius: 48px;
 }
+
+/* productive_user Styles */
+.productive_user{
+    padding: 50px 0px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+}
+.productive_user_title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #252432;
+    margin-bottom: 40px;
+}
+.counter-items{
+    display: flex;
+    justify-content: space-around;
+}
+.counter-number{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #4E47FF;
+}
+.counter-text{
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 0.5);
+}
