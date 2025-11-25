@@ -24,7 +24,7 @@
 }
 .btn-primary{ /* Button style*/
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 150%;
     letter-spacing: 0%;
     padding: 12px 36px;
@@ -193,4 +193,30 @@
     line-height: auto;
     letter-spacing: 0%;
     color: #B3B3B3;
+}
+
+/* Ready to focus section */
+.ready-to-focus{
+    text-align: center;
+}
+.ready-to-focus-content{
+    margin-bottom: 20px;
+}
+.ready-to-focus-title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.ready-to-focus-text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.ready-to-focus img{
+    border-radius: 48px;
 }
