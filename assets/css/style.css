@@ -78,6 +78,10 @@
     text-transform: uppercase;
     color: #4E47FF;
 }
+.nav-logo a{
+    text-decoration: none;
+    color: #4E47FF;
+}
 
 
 /* Hero Banner Style */
@@ -252,7 +256,7 @@
     margin-bottom: -10px;
     font-size: 18px;
     font-weight: 500;
-     line-height: 120%;
+    line-height: 120%;
     letter-spacing: 0%;
 }
 .form input, form textarea{
@@ -265,4 +269,39 @@
     color: rgba(0, 0, 0, 0.46);
     line-height: 150%;
     letter-spacing: 0%;
+}
+
+
+/* Footer style */
+footer{
+    background-color: #FFFFFF;
+}
+.footer-area{
+    text-align: center;
+    padding: 104px 0px;
+    max-width: 541px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #4E47FF;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.footer-menu ul li{
+    list-style: none;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+.footer-menu ul li a:hover{
+    cursor:pointer;
+    color:#4E47FF ;
 }
