@@ -5,6 +5,10 @@
 }
 
 /* Shared styles */
+.fixed-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .primary-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -38,9 +42,7 @@
 
 /* navbar styles */
 .nav-bar{
-    max-width: 1140px;
     height: 150px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,4 +54,23 @@
     letter-spacing: 0%;
     text-transform: uppercase;
     color: #4E47FF;
+}
+
+
+/* Hero Banner Style */
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 155px 0px;
+    text-align: center;
+}  
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #252432;
 }
